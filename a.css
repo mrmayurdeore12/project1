@@ -1,0 +1,265 @@
+
+        .nav-bar {
+          width: 100%;
+          height: 50px;
+          border: 1px solid black;
+  background-color:bisque;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+   justify-content: space-evenly; 
+}
+
+.nav-bar li {
+  margin-right: 20px;
+}
+.nav-bar li img{
+
+    height: 70px;
+    width: 70px;
+    
+}
+
+.nav-bar a {
+  color: #b72020;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-bar a:hover {
+  color: #ccc;
+}
+#t4{
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 270px;
+            padding: 10px;
+            width: 49%;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            outline-color: orangered;
+            /* border-top-right-radius: 5px; */
+            /* border-bottom-right-radius: 5px; */
+            /* border-color: rgb(248, 145, 27); */
+        }
+        .search1{
+            position: absolute;
+            margin-top: 11px;
+            margin-left: 896px;
+            color: white;
+            background-color: rgb(248, 191, 2);
+            border: 1px solid rgb(126, 126, 126);
+            padding: 2.7px;
+            border-left: none;
+        }
+        .img1{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/D-1.0-UHP-02082024-MainBanner-Z1-P1-\ Without\ Sponsored-new.gif);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 95px;
+        }
+        .img2{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/D-1.0-UHP-23072024-MainBanner-Z1-ClearanceSale-Flat75fff.webp);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 550px;
+        }
+        .img3{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/D-1.0-UHP-02082024-ServingDapperStylesFor\ Him-Header-rev.avif);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 1000px;
+        }
+        .img4{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/img4.avif);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 1750px;
+        }
+        .img5{
+          height: 650px;
+          width: 485px;
+          background-image: url(/img/img5.avif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 1100px;
+        }
+        .img6{
+          height: 650px;
+          width: 485px;
+          background-image: url(/img/img6.avif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          flex-wrap: wrap;
+          position: absolute;
+          left: 400px;
+          top: 1100px;
+        }
+        .img7{
+          height: 650px;
+          width: 485px;
+          background-image: url(/img/img7.avif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          flex-wrap: wrap;
+          position: absolute;
+          left: 800px;
+          top: 1100px;
+        }
+        .out{
+          height: 50px;
+          width: 50px;
+          position: absolute;
+          right: 20px;
+        }
+        .pro{
+          position: absolute;
+          top: 30px;
+          right: 90px;
+        }
+        .logo{
+          height: 50px;
+          width: 50px;
+          position: absolute;
+          top: 10px;
+          left: 60px;
+        }
+        .footer{
+  position: relative;
+  padding:0px;
+  display: flex;
+  width: 100%;
+  height:475px;
+  background-color: rgb(31, 29, 29);
+  margin-top:-4px;
+  align-items:center;
+  justify-content:space-around;
+
+}
+.list1{
+  position: absolute;
+  list-style: none;
+  color: white;
+  margin-bottom:200px;
+  margin-right:65%;
+        
+}
+.list2{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:12.2%;
+  margin-right:30%;
+        
+}
+.list3{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-top:0px;
+  margin-left:10%;
+        
+}
+.list4{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:72px;
+  margin-left:55%;
+        
+}
+.end{
+  position: absolute;
+  color: aliceblue;
+  margin-top:-75px;
+  margin-left:45%;
+   
+     
+}
+
+  
+
+.footer{
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  top: 1860px;
+  display: flex;
+  width: 100%;
+  height:475px;
+  background-color: rgb(31, 29, 29);
+  margin-top:-4px;
+  align-items:center;
+  justify-content:space-around;
+
+}
+.list1{
+  position: absolute;
+  list-style: none;
+  color: white;
+  margin-bottom:200px;
+  margin-right:65%;
+        
+}
+.list2{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:12.2%;
+  margin-right:30%;
+        
+}
+.list3{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-top:0px;
+  margin-left:10%;
+        
+}
+.list4{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:72px;
+  margin-left:55%;
+        
+}
+.end{
+  position: absolute;
+  color: aliceblue;
+  margin-top:-75px;
+  margin-left:45%;
+   
+     
+}
+    
