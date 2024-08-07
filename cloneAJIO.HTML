@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-bar {
+          width: 100%;
+          height: 50px;
+          border: 1px solid black;
+  background-color:bisque;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+   justify-content: space-evenly; 
+}
+
+.nav-bar li {
+  margin-right: 20px;
+}
+.nav-bar li img{
+
+    height: 70px;
+    width: 70px;
+    
+}
+
+.nav-bar a {
+  color: #b72020;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-bar a:hover {
+  color: #ccc;
+}
+#t4{
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 270px;
+            padding: 10px;
+            width: 49%;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            outline-color: orangered;
+            /* border-top-right-radius: 5px; */
+            /* border-bottom-right-radius: 5px; */
+            /* border-color: rgb(248, 145, 27); */
+        }
+        .search1{
+            position: absolute;
+            margin-top: 11px;
+            margin-left: 896px;
+            color: white;
+            background-color: rgb(248, 191, 2);
+            border: 1px solid rgb(126, 126, 126);
+            padding: 2.7px;
+            border-left: none;
+        }
+        .img1{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/D-1.0-UHP-02082024-MainBanner-Z1-P1-\ Without\ Sponsored-new.gif);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 95px;
+        }
+        .img2{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/D-1.0-UHP-23072024-MainBanner-Z1-ClearanceSale-Flat75fff.webp);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 550px;
+        }
+        .img3{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/D-1.0-UHP-02082024-ServingDapperStylesFor\ Him-Header-rev.avif);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 1000px;
+        }
+        .img4{
+          height: 700px;
+          width: 100%;
+          background-image: url(/img/img4.avif);
+          background-repeat: no-repeat;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 1750px;
+        }
+        .img5{
+          height: 650px;
+          width: 485px;
+          background-image: url(/img/img5.avif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: block;
+          position: absolute;
+          left: 10px;
+          top: 1100px;
+        }
+        .img6{
+          height: 650px;
+          width: 485px;
+          background-image: url(/img/img6.avif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          flex-wrap: wrap;
+          position: absolute;
+          left: 400px;
+          top: 1100px;
+        }
+        .img7{
+          height: 650px;
+          width: 485px;
+          background-image: url(/img/img7.avif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          flex-wrap: wrap;
+          position: absolute;
+          left: 800px;
+          top: 1100px;
+        }
+        .out{
+          height: 50px;
+          width: 50px;
+          position: absolute;
+          right: 20px;
+        }
+        .pro{
+          position: absolute;
+          top: 30px;
+          right: 90px;
+        }
+        .logo{
+          height: 50px;
+          width: 50px;
+          position: absolute;
+          top: 10px;
+          left: 60px;
+        }
+        .footer{
+  position: relative;
+  padding:0px;
+  display: flex;
+  width: 100%;
+  height:475px;
+  background-color: rgb(31, 29, 29);
+  margin-top:-4px;
+  align-items:center;
+  justify-content:space-around;
+
+}
+.list1{
+  position: absolute;
+  list-style: none;
+  color: white;
+  margin-bottom:200px;
+  margin-right:65%;
+        
+}
+.list2{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:12.2%;
+  margin-right:30%;
+        
+}
+.list3{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-top:0px;
+  margin-left:10%;
+        
+}
+.list4{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:72px;
+  margin-left:55%;
+        
+}
+.end{
+  position: absolute;
+  color: aliceblue;
+  margin-top:-75px;
+  margin-left:45%;
+   
+     
+}
+
+  
+
+.footer{
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  top: 1860px;
+  display: flex;
+  width: 100%;
+  height:475px;
+  background-color: rgb(31, 29, 29);
+  margin-top:-4px;
+  align-items:center;
+  justify-content:space-around;
+
+}
+.list1{
+  position: absolute;
+  list-style: none;
+  color: white;
+  margin-bottom:200px;
+  margin-right:65%;
+        
+}
+.list2{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:12.2%;
+  margin-right:30%;
+        
+}
+.list3{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-top:0px;
+  margin-left:10%;
+        
+}
+.list4{
+  position: absolute;
+  color: white;
+  list-style: none;
+  margin-bottom:72px;
+  margin-left:55%;
+        
+}
+.end{
+  position: absolute;
+  color: aliceblue;
+  margin-top:-75px;
+  margin-left:45%;
+   
+     
+}
+    </style>
+</head>
+<body style="background-color: rgb(97, 95, 95);">
+    <nav class="nav-bar">
+        <ul>
+            <li><img src="/img/ajio-removebg-preview.png" alt="" class="logo"></li>
+            <a href="">MEN</a>
+            <a href="">WOMEN</a>
+            <a href="">KIDS</a>
+            <a href="">HOME&LIVING</a>
+            <a href="">BEAUTY</a>
+            <a href="">STUDIO<sup>NEW</sup></a> 
+            <input type="search" name="search" id="t4" placeholder="Search ajio">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="42.181" height="48" class="pro"><g fill="#1a171b"><path d="M41.455 0H.727A.726.726 0 0 0 0 .727v26.182c0 11.586 19.944 20.648 20.792 21.027a.721.721 0 0 0 .594 0c.849-.379 20.8-9.441 20.8-21.027V.727A.725.725 0 0 0 41.455 0zm-.728 26.908c0 9.924-17.151 18.389-19.637 19.563C18.6 45.3 1.455 36.84 1.455 26.908V1.453h39.272z"/><path d="M10.182 25.473H32a.726.726 0 0 0 .727-.727V22.17a4.126 4.126 0 0 0-2.46-3.711 18.712 18.712 0 0 0-2.65-1 21.673 21.673 0 0 0-1.157-.313l-.019-.006a2.636 2.636 0 0 1-1.985-1.92c0-.021-.007-.049-.01-.076a6.862 6.862 0 0 0 2.1-5.049 5.318 5.318 0 0 0-5.454-5.658 5.319 5.319 0 0 0-5.455 5.663 6.859 6.859 0 0 0 2.095 5.043 1.95 1.95 0 0 1-.022.15 2.551 2.551 0 0 1-1.965 1.852c-.4.1-.794.205-1.187.322a18.4 18.4 0 0 0-2.646 1 4.122 4.122 0 0 0-2.457 3.7v2.58a.727.727 0 0 0 .727.726zM17.091 10.1a3.847 3.847 0 0 1 4-4.205 3.848 3.848 0 0 1 4 4.205c0 2.734-1.794 4.961-4 4.961s-4-2.229-4-4.961zM19 16.023a4.692 4.692 0 0 0 4.175 0 3.957 3.957 0 0 0 1.589 1.951c-.378.635-1.747 1.365-3.677 1.365-1.961 0-3.31-.715-3.681-1.352A3.892 3.892 0 0 0 19 16.023zm-8.1 6.143a2.683 2.683 0 0 1 1.624-2.391 17.037 17.037 0 0 1 2.439-.918c.366-.109.728-.209 1.108-.3.638 1.3 2.6 2.236 5.01 2.236s4.364-.934 5-2.238c.373.086.741.189 1.1.3a16.959 16.959 0 0 1 2.443.918 2.69 2.69 0 0 1 1.627 2.4v1.85H10.907v-1.857zM10.182 30.322H32a.728.728 0 0 0 0-1.456H10.182a.728.728 0 0 0 0 1.456zM10.182 35.172h15.03a.728.728 0 0 0 0-1.456h-15.03a.728.728 0 0 0 0 1.456z"/></g></svg></a>
+            <div class="img1"></div> 
+            <div class="img2"></div>   
+            <div class="img3"></div> 
+            <div class="img5"></div>
+            <div class="img6"></div>  
+            <div class="img7"></div>
+            <div class="img8"></div>    
+            <div class="img4"></div> 
+            <a href="#"><img src="/img/logout-2-svgrepo-com (1).svg" alt="" class="out"></a>
+            
+        </ul>
+      </nav>
+      <div class="footer">
+
+        <ul class="list1">
+         <h2>Get to Know Us</h2>
+           <li><a href="">About Us</a></li><br>
+           <li><a href="">Careers</a></li><br>
+           <li><a href="">Press Releases</a></li><br>
+           <li><a href="">AJIO Science</a></li>
+          
+       </ul>
+       <ul class="list2">
+         <h2> Connect with Us</h2>
+           <li ><a href="">Facebook</a></li><br>
+           <li><a href="">Twitter</a></li><br>
+           <li><a href="">Instagram</a></li>
+          
+       </ul>
+       <ul class="list3">
+         <h2>Make Money with Us</h2>
+           <li><a href="">Sell on AJIO</a></li><br>
+           <li><a href="">Sell under AJIO Accelerator</a></li><br>
+           <li><a href="">Protect and Build Your Brand</a></li><br>
+           <li><a href="">Amazon Global Selling</a></li><br>
+           <li><a href="">Become an Affiliate</a></li><br>
+           <li><a href="">Fulfilment by AJIO</a></li><br>
+           <li><a href="">Advertise Your Products</a></li><br>
+           <li><a href="">Amazon Pay on Merchants</a></li><br>
+
+       </ul>
+       <ul class="list4">
+         <h2>Let Us Help You</h2>
+           <li><a href="">COVID-19 and AJIO</a> </li><br>
+           <li><a href="">Your Account</a></li><br>
+           <li><a href="">Returns Centres</a></li><br>
+           <li><a href="">Recalls and Product Safety Alerts</a></li><br>
+           <li><a href="">100% Purchase Protection</a></li><br>
+           <li><a href="">Amazon App Download</a></li><br>
+           <li><a href="">Help</a></li>
+
+       </ul>
+
+   </div>
+</body>
+</html>
